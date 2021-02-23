@@ -1,0 +1,51 @@
+/* body {
+    background-color: #cef9dc;
+}
+
+header {
+    background-color: #66ffcc;
+}
+ */
+.searchbar {
+    width: 300px;
+    float: right;
+    margin-left: 80%;
+}
+/* xs */
+@media screen and (min-width: 100px) {
+    .flexitem {
+        width: 100%;
+    }
+}
+/* sm-md */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .flexitem {
+        width: 50%;
+    }
+}
+/* md-lg */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .flexitem {
+        width: 33%;
+    }
+}
+/* lg-xl */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .flexitem {
+        width: 25%;
+    }
+    /* /threads/create */
+    .create_card {
+        width: 290px;
+    }
+}
+/* xl */
+@media screen and (min-width: 1200px) {
+    .flexitem {
+        width: 20%;
+    }
+    /* /threads/create */
+    .create_card {
+        width: 290px;
+    }
+}
